@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import { Container } from '../styles/Output'
 import { PulseLoader } from 'react-spinners'
 
 const Output = props => {
@@ -9,7 +11,11 @@ const Output = props => {
     output = props.text
   }
 
-  return <div>{output}</div>
+  return <Container>{output}</Container>
+}
+
+Output.propTypes = {
+  text: PropTypes.string
 }
 
 export default Output

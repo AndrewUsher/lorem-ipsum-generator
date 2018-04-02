@@ -29,4 +29,14 @@ const Options = props => {
   )
 }
 
+Options.propTypes = {
+  changedLength: PropTypes.func.isRequired,
+  changedNum: PropTypes.func.isRequired,
+  changedType: PropTypes.func.isRequired,
+  length: PropTypes.string.isRequired,
+  num: PropTypes.number.isRequired,
+  submit: PropTypes.func.isRequired,
+  type: PropTypes.string.isRequired
+}
+
 export default Options
