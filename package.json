@@ -28,14 +28,14 @@
     "stylus-loader": "^3.0.2",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
-    "webpack-dev-server": "^3.1.1"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
+    "webpack-dev-server": "^3.1.1",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-spinners": "^0.2.6",
